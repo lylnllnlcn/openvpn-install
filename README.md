@@ -5,6 +5,7 @@ This script will let you setup your own VPN server in no more than a minute, eve
 
 ### Installation
 Run the script and follow the assistant:
+
 Centos 先启用源
 yum -y install epel-release
 
