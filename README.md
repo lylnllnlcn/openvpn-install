@@ -10,6 +10,7 @@ Centos 先启用源
 yum -y install epel-release
 
 #启用epel
+
 sed -i "s/enabled=0/enabled=1/" /etc/yum.repos.d/epel.repo
 -------------------------------------------------------------------
 `wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh`
