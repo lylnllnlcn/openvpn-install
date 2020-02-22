@@ -5,7 +5,12 @@ This script will let you setup your own VPN server in no more than a minute, eve
 
 ### Installation
 Run the script and follow the assistant:
+Centos 先启用源
+yum -y install epel-release
 
+#启用epel
+sed -i "s/enabled=0/enabled=1/" /etc/yum.repos.d/epel.repo
+-------------------------------------------------------------------
 `wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh`
 
 Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
